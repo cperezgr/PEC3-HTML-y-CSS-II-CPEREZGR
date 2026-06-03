@@ -1,0 +1,11 @@
+.btn-fira {
+  @apply inline-flex items-center justify-center rounded-full bg-fira-brown px-6 py-3 font-semibold text-white transition-colors hover:bg-fira-orange;
+}
+
+.card-fira {
+  @apply rounded-2xl bg-white p-6 shadow-lg ring-1 ring-black/5;
+}
+
+.section-title-fira {
+  @apply text-3xl font-bold tracking-tight text-fira-brown md:text-4xl;
+}

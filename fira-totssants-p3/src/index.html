@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Fira Tots Sants Cocentaina · PEC 3</title>
+    <link rel="stylesheet" href="./assets/styles/main.scss" />
+  </head>
+
+  <body
+    class="bg-[radial-gradient(circle_at_top_left,#f7df9e_0%,#ead7b5_45%,#c98a4a_100%)] font-serif text-fira-dark"
+  >
+    <include src="./partials/header.html"></include>
+
+    <main class="px-4 py-3 md:px-8 md:py-5">
+      <section
+        class="mx-auto max-w-6xl border-4 border-fira-brown bg-[#f3eadb] px-4 py-4 md:px-6 md:py-6"
+      >
+        <div class="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+          <div>
+            <p
+              class="mb-6 text-1xl uppercase tracking-[0.3em] text-fira-brown md:text-1xl"
+            >
+              Cocentaina · 2026
+            </p>
+
+            <h1
+              class="text-[6rem] uppercase leading-[0.9] text-fira-brown md:text-[7rem] lg:text-[9rem]"
+            >
+              Fira<br />
+              Tots<br />
+              Sants
+            </h1>
+
+            <p
+              class="mt-8 text-3xl font-bold text-fira-brown md:text-3xl lg:text-3xl"
+            >
+              Del 1 al 3 de noviembre
+            </p>
+          </div>
+
+          <div class="flex flex-col items-start justify-center">
+            <div
+              class="mb-6 w-full max-w-[18rem] rounded-[2rem] bg-white p-5 shadow-xl"
+            >
+              <img
+                class="mx-auto w-full max-w-[15rem]"
+                src="./assets/images/portada.png"
+                alt="Logotipo de la Fira Tots Sants de Cocentaina"
+              />
+            </div>
+
+            <p
+              class="max-w-md text-2xl leading-relaxed text-fira-brown md:text-[1.7rem]"
+            >
+              Productos agrícolas, maquinaria, oficios tradicionales y mercado
+              medieval.
+            </p>
+
+            <div class="mt-6">
+              <include src="./partials/cta-link.html"></include>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <include src="./partials/footer.html"></include>
+  </body>
+</html>

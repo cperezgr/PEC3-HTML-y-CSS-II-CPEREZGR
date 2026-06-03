@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Ponentes · Fira Tots Sants Cocentaina</title>
+    <link rel="stylesheet" href="./assets/styles/main.scss" />
+  </head>
+
+  <body class="bg-fira-cream text-fira-dark font-serif">
+    <include src="./partials/header.html"></include>
+
+    <main class="bg-[#f3eadb] px-6 py-12 md:py-16">
+      <section class="mx-auto max-w-6xl">
+        <header class="mb-10">
+          <h1 class="font-display text-5xl text-fira-brown md:text-6xl">
+            Ponentes
+          </h1>
+
+          <p class="mt-5 max-w-2xl text-lg leading-8 text-fira-dark">
+            Profesionales invitados para compartir conocimiento sobre
+            agricultura, maquinaria, oficios tradicionales y patrimonio
+            medieval.
+          </p>
+        </header>
+
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <include src="./partials/ponente1.html"></include>
+          <include src="./partials/ponente2.html"></include>
+          <include src="./partials/ponente3.html"></include>
+          <include src="./partials/ponente4.html"></include>
+          <include src="./partials/ponente5.html"></include>
+          <include src="./partials/ponente6.html"></include>
+        </div>
+      </section>
+    </main>
+
+    <include src="./partials/footer.html"></include>
+  </body>
+</html>
